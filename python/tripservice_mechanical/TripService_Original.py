@@ -1,6 +1,6 @@
-from TripDAO import TripDAO
-from UserSession import UserSession
-from UserNotLoggedInException import UserNotLoggedInException
+from .TripDAO import TripDAO
+from .UserSession import UserSession
+from .UserNotLoggedInException import UserNotLoggedInException
 
 class TripService:
   def getTripsByUser(self, user):

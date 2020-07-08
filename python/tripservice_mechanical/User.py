@@ -1,5 +1,5 @@
 
-from Trip import Trip;
+from .Trip import Trip
 
 class User:
   
